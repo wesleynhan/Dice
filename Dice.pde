@@ -15,8 +15,6 @@ void draw()
 			Die one = new Die(i,j);
 			one.show();
 			sumDie = sumDie + one.numDie;
-			System.out.println(one.numDie);
-			
 		}
 	}
 	fill(0,(int)(Math.random()*179+66),(int)(Math.random()*179+66));
